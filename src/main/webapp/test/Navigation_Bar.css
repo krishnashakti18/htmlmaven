@@ -1,0 +1,52 @@
+
+body
+{
+margin-top:100px;
+}
+ul
+{
+list-style-type: none;
+
+overflow:hidden;
+background-color:grey;
+margin-top:0px;
+
+}
+.navig{
+				position:fixed;
+				top:0px;
+				left:0px;
+				width:100%;
+				}
+
+li a
+{
+display:block;
+color:black;
+text-align:center;
+float:left;
+padding:20px;
+text-decoration:none;
+}
+li a:hover
+{
+ background-color:orange;
+}
+body
+{
+background-image:url('sky.jpg');
+background-repeat:no-repeat;
+background-size:1300px 330px;
+}
+#ii
+{
+float:right;
+}
+#iii{
+float:right;
+}
+.navig:after{	
+			clear:both;
+			content:"";
+			display:block;
+		}
