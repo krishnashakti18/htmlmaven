@@ -1,0 +1,34 @@
+<html>
+	<style>
+		#d1{
+			background-color:red;			
+		}
+		#bi{
+			background-image:url(http://www.plainenglish.ie/wp-content/uploads/training.jpg);
+			width:100%;
+			height:400px;
+		}
+		@media only screen and (min-width:800px) and (max-width:1000px){
+			#d1{
+				background-color:green;
+			}
+			
+		}
+		@media only screen and (max-width:799px){
+			#d1{
+				background-color:orange;
+				text-align:center;
+			}
+			#bi{
+				display:none;
+			}
+		}
+	</style>
+	<body>
+		<div id="d1">
+			<h1>Hello World!!!</h1>
+		</div>
+		<div id="bi">
+		</div>
+	</body>
+</html>
